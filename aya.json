@@ -1,1 +1,557 @@
-{"result":[{"id":1,"name":"Apple MacBook Air 13","price":916.19,"category":"Notebooks","supplier":"Apple"},{"id":2,"name":"Apple MacBook Pro 13","price":1715.9,"category":"Notebooks","supplier":"Apple"},{"id":3,"name":"Apple MacBook Air 15","price":1694.19,"category":"Notebooks","supplier":"Apple"},{"id":4,"name":"Apple MacBook Pro 15","price":1273.9,"category":"Notebooks","supplier":"Apple"},{"id":5,"name":"LENOVO ThinkPad E495 - 14","price":718.0,"category":"Notebooks","supplier":"Lenovo"},{"id":6,"name":"Lenovo V130-15IKB - 15,6","price":339.0,"category":"Notebooks","supplier":"Lenovo"},{"id":7,"name":"Microsoft Surface Pro - 12","price":849.0,"category":"Notebooks","supplier":"Microsoft"},{"id":8,"name":"Microsoft Surface Pro 6","price":1189.0,"category":"Notebooks","supplier":"Microsoft"},{"id":9,"name":"Apple iPad Pro","price":690.0,"category":"Tablets","supplier":"Apple"},{"id":10,"name":"Apple iPad Air 2","price":590.0,"category":"Tablets","supplier":"Apple"},{"id":11,"name":"Lenovo TAB 3 X70L ZA0Y","price":260.0,"category":"Tablets","supplier":"Lenovo"},{"id":12,"name":"Lenovo Tab4 10 Plus ZA2M","price":284.0,"category":"Tablets","supplier":"Lenovo"}]}
+{
+  "updated": "2022-11-14T00:51:22.423877900Z",
+  "design": {
+    "settings": {
+      "templateId": 6,
+      "name": "TEST Form",
+      "submit": {
+        "lock": false,
+        "pdf": true
+      },
+      "language": "en_AU",
+      "clickableURLQuestions": true,
+      "html": false
+    },
+    "layout": [
+      {
+        "version": 1,
+        "type": "doc",
+        "content": []
+      },
+      {
+        "version": 1,
+        "type": "doc",
+        "content": [
+          {
+            "type": "mediaSingle",
+            "attrs": {
+              "layout": "center"
+            },
+            "content": [
+              {
+                "type": "media",
+                "attrs": {
+                  "type": "external",
+                  "url": "javascript:alert('xssurl')"
+                }
+              }
+            ]
+          },
+          {
+            "type": "codeBlock",
+            "attrs": {},
+            "content": [
+              {
+                "type": "text",
+                "text": "\"><img src=x onerror=alert('paragrah')>"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 2
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Person reporting the problem"
+              }
+            ]
+          },
+          {
+            "type": "layoutSection",
+            "content": [
+              {
+                "type": "layoutColumn",
+                "attrs": {
+                  "width": 50
+                },
+                "content": [
+                  {
+                    "type": "extension",
+                    "attrs": {
+                      "extensionType": "com.thinktilt.proforma",
+                      "extensionKey": "question",
+                      "parameters": {
+                        "id": 1
+                      },
+                      "layout": "default"
+                    }
+                  },
+                  {
+                    "type": "extension",
+                    "attrs": {
+                      "extensionType": "com.thinktilt.proforma",
+                      "extensionKey": "question",
+                      "parameters": {
+                        "id": 2
+                      },
+                      "layout": "default"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "layoutColumn",
+                "attrs": {
+                  "width": 50
+                },
+                "content": [
+                  {
+                    "type": "extension",
+                    "attrs": {
+                      "extensionType": "com.thinktilt.proforma",
+                      "extensionKey": "question",
+                      "parameters": {
+                        "id": 3
+                      },
+                      "layout": "default"
+                    }
+                  },
+                  {
+                    "type": "extension",
+                    "attrs": {
+                      "extensionType": "com.thinktilt.proforma",
+                      "extensionKey": "question",
+                      "parameters": {
+                        "id": 4
+                      },
+                      "layout": "default"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 2
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Details of Account issue"
+              }
+            ]
+          },
+          {
+            "type": "layoutSection",
+            "content": [
+              {
+                "type": "layoutColumn",
+                "attrs": {
+                  "width": 50
+                },
+                "content": [
+                  {
+                    "type": "extension",
+                    "attrs": {
+                      "extensionType": "com.thinktilt.proforma",
+                      "extensionKey": "question",
+                      "parameters": {
+                        "id": 5
+                      },
+                      "layout": "default"
+                    }
+                  },
+                  {
+                    "type": "extension",
+                    "attrs": {
+                      "extensionType": "com.thinktilt.proforma",
+                      "extensionKey": "question",
+                      "parameters": {
+                        "id": 6
+                      },
+                      "layout": "default"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "layoutColumn",
+                "attrs": {
+                  "width": 50
+                },
+                "content": [
+                  {
+                    "type": "extension",
+                    "attrs": {
+                      "extensionType": "com.thinktilt.proforma",
+                      "extensionKey": "question",
+                      "parameters": {
+                        "id": 7
+                      },
+                      "layout": "default"
+                    }
+                  },
+                  {
+                    "type": "extension",
+                    "attrs": {
+                      "extensionType": "com.thinktilt.proforma",
+                      "extensionKey": "question",
+                      "parameters": {
+                        "id": 8
+                      },
+                      "layout": "default"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "extension",
+            "attrs": {
+              "extensionType": "com.thinktilt.proforma",
+              "extensionKey": "question",
+              "parameters": {
+                "id": 9
+              },
+              "layout": "default"
+            }
+          }
+        ]
+      },
+      {
+        "version": 1,
+        "type": "doc",
+        "content": [
+          {
+            "type": "extension",
+            "attrs": {
+              "extensionType": "com.thinktilt.proforma",
+              "extensionKey": "question",
+              "parameters": {
+                "id": 11
+              },
+              "layout": "default"
+            }
+          }
+        ]
+      },
+      {
+        "version": 1,
+        "type": "doc",
+        "content": [
+          {
+            "type": "extension",
+            "attrs": {
+              "extensionType": "com.thinktilt.proforma",
+              "extensionKey": "question",
+              "parameters": {
+                "id": 13
+              },
+              "layout": "default"
+            }
+          }
+        ]
+      },
+      {
+        "version": 1,
+        "type": "doc",
+        "content": [
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 2
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Additional comments"
+              }
+            ]
+          },
+          {
+            "type": "extension",
+            "attrs": {
+              "extensionType": "com.thinktilt.proforma",
+              "extensionKey": "question",
+              "parameters": {
+                "id": 14
+              },
+              "layout": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "conditions": {
+      "10": {
+        "t": "sh",
+        "i": {
+          "co": {
+            "cIds": {
+              "6": [
+                "82"
+              ]
+            }
+          }
+        },
+        "o": {
+          "sIds": [
+            "2"
+          ]
+        }
+      },
+      "12": {
+        "t": "sh",
+        "i": {
+          "co": {
+            "cIds": {
+              "8": [
+                "82"
+              ]
+            }
+          }
+        },
+        "o": {
+          "sIds": [
+            "3"
+          ]
+        }
+      }
+    },
+    "sections": {
+      "1": {
+        "type": "b",
+        "name": "\"><img src=x onerror=alert('paragrah')>",
+        "conditions": []
+      },
+      "2": {
+        "type": "b",
+        "name": "Error message",
+        "conditions": [
+          "10"
+        ]
+      },
+      "3": {
+        "type": "b",
+        "name": "Replicate",
+        "conditions": [
+          "12"
+        ]
+      },
+      "4": {
+        "type": "b",
+        "conditions": []
+      }
+    },
+    "questions": {
+      "1": {
+        "type": "tu",
+        "label": "\"><img src=x onerror=alert('URL')>",
+        "description": "\"><img src=x onerror=alert('URL')>",
+        "validation": {
+          "rq": true
+        },
+        "choices": [],
+        "defaultAnswer": {
+          "text": "\"><img src=x onerror=alert('URL')>"
+        },
+        "questionKey": "\"><img src=x onerror=alert('URL')>"
+      },
+      "2": {
+        "type": "um",
+        "label": "\"><img src=x onerror=alert('user')>",
+        "description": "\"><img src=x onerror=alert('user')>",
+        "validation": {
+          "rq": false
+        },
+        "choices": [],
+        "questionKey": "\"><img src=x onerror=alert('user')>"
+      },
+      "3": {
+        "type": "ts",
+        "label": "Job title",
+        "validation": {}
+      },
+      "4": {
+        "type": "te",
+        "label": "Email",
+        "description": "",
+        "validation": {
+          "rq": false
+        },
+        "choices": [],
+        "questionKey": ""
+      },
+      "5": {
+        "type": "cd",
+        "label": "Which system has the problem",
+        "description": "",
+        "validation": {
+          "rq": false
+        },
+        "choices": [
+          {
+            "id": "1",
+            "label": "System 1",
+            "other": false
+          },
+          {
+            "id": "2",
+            "label": "System 2",
+            "other": false
+          },
+          {
+            "id": "3",
+            "label": "System 3",
+            "other": false
+          },
+          {
+            "id": "4",
+            "label": "System 4",
+            "other": false
+          },
+          {
+            "id": "5",
+            "label": "System 5",
+            "other": false
+          }
+        ],
+        "questionKey": ""
+      },
+      "6": {
+        "type": "cs",
+        "label": "Do you receive an error message?",
+        "description": "",
+        "validation": {
+          "rq": false
+        },
+        "choices": [
+          {
+            "id": "82",
+            "label": "Yes"
+          },
+          {
+            "id": "83",
+            "label": "No"
+          }
+        ],
+        "questionKey": ""
+      },
+      "7": {
+        "type": "ts",
+        "label": "User name for this account",
+        "description": "",
+        "validation": {
+          "rq": false
+        },
+        "choices": [],
+        "questionKey": ""
+      },
+      "8": {
+        "type": "cs",
+        "label": "Can the problem be replicated?",
+        "validation": {},
+        "choices": [
+          {
+            "id": "82",
+            "label": "Yes"
+          },
+          {
+            "id": "83",
+            "label": "No"
+          }
+        ]
+      },
+      "9": {
+        "type": "pg",
+        "label": "Describe the account issue",
+        "validation": {}
+      },
+      "11": {
+        "type": "pg",
+        "label": "Copy and paste the error message",
+        "description": "",
+        "validation": {
+          "rq": false
+        },
+        "choices": [],
+        "questionKey": ""
+      },
+      "13": {
+        "type": "pg",
+        "label": "\"><img src=x onerror=alert('paragrah')>",
+        "description": "\"><img src=x onerror=alert('paragrah')>",
+        "validation": {
+          "rq": false
+        },
+        "choices": [],
+        "defaultAnswer": {
+          "text": "\"><img src=x onerror=alert('paragrah')>"
+        },
+        "questionKey": "\"><img src=x onerror=alert('paragrah')>"
+      },
+      "14": {
+        "type": "pg",
+        "label": "Comments",
+        "validation": {}
+      }
+    }
+  },
+  "publish": {
+    "jira": {
+      "issueRequestTypeIds": [
+        10000,
+        10002,
+        10001
+      ],
+      "newIssueIssueTypeIds": [
+        10001,
+        10002
+      ],
+      "newIssueRequestTypeIds": [],
+      "submitOnCreate": false,
+      "validateOnCreate": false
+    }
+  },
+  "state": {
+    "visibility": "i",
+    "status": "o",
+    "answers": {
+      "1": {
+        "text": "\"><img src=x onerror=alert('URL')>"
+      },
+      "2": {
+        "users": []
+      },
+      "3": {
+        "text": ""
+      },
+      "4": {
+        "text": ""
+      },
+      "5": {
+        "text": "",
+        "choices": []
+      },
+      "6": {
+        "text": "",
+        "choices": []
+      },
+      "7": {
+        "text": ""
+      },
+      "8": {
+        "text": "",
+        "choices": []
+      },
+      "9": {
+        "text": ""
+      },
+      "11": {
+        "text": ""
+      },
+      "13": {
+        "text": "\"><img src=x onerror=alert('paragrah')>"
+      },
+      "14": {
+        "text": ""
+      }
+    }
+  }
+}
